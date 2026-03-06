@@ -1,46 +1,39 @@
-Ось README.md для вашого репозиторію goit-js-hw-08.
-
-Судячи з назви та структури (а також класичної програми курсу GoIT), це домашнє завдання з Vanilla JavaScript, де створюється інтерактивна галерея зображень. Основний акцент тут зазвичай робиться на роботу з DOM, делегування подій (Event Delegation) та використання сторонніх бібліотек (наприклад, для модального вікна — basicLightbox).
-
-Ви можете скопіювати цей код:
-
 Markdown
-# Interactive Image Gallery 🖼️
+# JavaScript Event Delegation ⚡
 
-A Vanilla JavaScript project built as part of the GoIT course homework. This application demonstrates how to create a dynamic, interactive image gallery using clean JavaScript, event delegation, and third-party libraries.
+This repository contains the seventh homework assignment for the GoIT Fullstack Developer course. It focuses on advanced event handling, specifically the **Event Delegation** pattern, and generating dynamic HTML markup using Vanilla JavaScript.
 
-🔗 **[Live Demo](https://ibuizle.github.io/goit-js-hw-08/)**
+🔗 **[Live Demo](https://ibuizle.github.io/goit-js-hw-07/)**
 
 ## 📖 About the Project
 
-The main objective of this project was to practice DOM manipulation and event handling in JavaScript. Instead of attaching event listeners to every single image, the project utilizes the **Event Delegation** pattern on the parent container, making the application much more efficient. When a user clicks on an image, a high-resolution version opens in a modal window.
+The main goal of this project is to learn how to efficiently manage DOM events. Instead of adding an event listener to every single interactive element (which can slow down the browser), a single listener is attached to their common parent. The project relies on the concept of "event bubbling" to determine which target element was interacted with.
 
-### Key Features:
-- **Dynamic Rendering:** The gallery interface is generated dynamically using JavaScript based on an array of data.
-- **Event Delegation:** Optimized event listening by attaching a single listener to the gallery wrapper.
-- **Modal Window:** Clicking an image opens a modal window with the full-sized picture (often using a library like `basicLightbox`).
-- **Keyboard Navigation:** Users can close the modal window by pressing the `Escape` key.
+### Key Learnings & Features:
+- **Event Delegation:** Handling events efficiently by attaching a single listener to a parent container.
+- **Dynamic DOM Generation:** Creating and rendering HTML elements (like a gallery or list) dynamically based on an array of objects.
+- **Event Bubbling & Capturing:** Understanding how events propagate through the Document Object Model tree.
+- **Third-Party Libraries:** Integrating and using simple external scripts (e.g., for modal windows or input throttling/debouncing).
 
 ## 🛠 Built With
 
 - **HTML5:** Semantic structure.
-- **CSS3:** Styling and responsive grid layout.
-- **Vanilla JavaScript:** Core logic, DOM manipulation, and event handling.
-- **Third-Party Library:** (e.g., SimpleLightbox or basicLightbox) used for the modal functionality.
+- **CSS3:** Styling and layout formatting.
+- **Vanilla JavaScript:** Core logic, array iteration, and DOM manipulation.
 
 ## 🚀 How to Run Locally
 
-To check out the project on your local machine:
+To explore the code and run this project on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ibuizle/goit-js-hw-08.git](https://github.com/ibuizle/goit-js-hw-08.git)
+   git clone [https://github.com/ibuizle/goit-js-hw-07.git](https://github.com/ibuizle/goit-js-hw-07.git)
 Navigate into the project folder:
 
 Bash
-cd goit-js-hw-08
+cd goit-js-hw-07
 Open the project:
-Simply open the index.html file in your browser, or use an extension like Live Server in VS Code for a better development experience.
+Simply open the index.html file in your browser, or use an extension like Live Server in VS Code.
 
 👤 Author
 GitHub — @ibuizle
